@@ -21,14 +21,20 @@ body {
 
 .tail-aircutter-flip {
     /*починить крило можно тут*/
+    transform: scale(-1, 1)
 }
 
 .place {
+    fill: #FFFFFF;
+    stroke: #A4C2EC;
 }
 .place:hover {
+    stroke:#eccea4;
 }
 
 .place-disabled {
+    fill: #FFFFFF;
+    stroke: #CCCCCC;
 }
 
 
